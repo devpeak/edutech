@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --color-primary:#6c63ff;
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
@@ -25,6 +25,5 @@
     --container-width-sm: 94%;
 
     --transition: all 400ms ease;
-    
 
 }
