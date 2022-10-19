@@ -328,8 +328,8 @@ header{
 .testimonials__container {
     overflow-x : hidden;
     position: relative;
+    margin-top: 4rem;
     margin-bottom: 5rem;
-    padding: 3rem;
     
 }
 
@@ -378,7 +378,3 @@ header{
     transform: rotate(45deg);
 }
 
-.containertestimonials__container h4{
-    font-size : 1rem;
-    line-height: 2.2rem; 
-}
