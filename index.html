@@ -483,28 +483,30 @@
                          </p>
                         </div>
                      </article>
-
                 </div>
+                <div class="swiper-pagination"></div>
             </section>
 
             
             
             
             <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-            
-            
             <script src = "./main.js"></script>
-
             <script>
                 var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 3,
+                slidesPerView: 1,
                 spaceBetween: 30,
                 freeMode: true,
                 pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
                 },
+                //when window width is >= 600px
+                breakpoints:{
+                    600: {
+                        slidesPerView: 2
+                    }
+                }
                 });
             </script>
 </body>
